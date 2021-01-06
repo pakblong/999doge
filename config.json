@@ -1,37 +1,37 @@
 {
 
  "Account": {
-"Username": "SUBSCRIBE",
-     "Password": "TIONG"
+"Username": "USERNAME",
+     "Password": "PASSWORD"
      },
- "Target Profit": "10000",
- "Target Win": "500000",
+ "Target Profit": "100000",
+ "Target Win": "5000000",
  "Lose Target": "0",
  "Reset If Target Profit": "OFF",
  "Reset If Target Win": "OFF",
  "Interval": "0",
  "Config": [{
 
-     "Name Bet Set": "chance 49% bet 0.01",
+     "Name Bet Set": "chance 84% bet 0.01",
      "Base Bet": "0.01",
      "Max Bet": "OFF",
-     "Chance": "49",
+     "Chance": "84",
      "Random Chance": {
-          "Toggle": "ON",
-          "Min": "49",
-          "Max": "49.25"
+          "Toggle": "OFF",
+          "Min": "84",
+          "Max": "84"
         },
      "Bet": {
           "Bet": "Low",
           "Hi / Low": {
               "Toggle": "ON",
               "If Lose": "3",
-              "If Win": "2"
+              "If Win": "1"
             }
         },
-     "If Win": "1.1",
-     "If Lose": "1.25",
-     "Reset If Win": "2",
+     "If Win": "0.85",
+     "If Lose": "5.8",
+     "Reset If Win": "1",
      "Reset If Profit": "0.0000001",
      "Interval": "0"
      },{
@@ -53,8 +53,8 @@
               "If Win": "2"
             }
         },
-     "If Win": "1.05",
-     "If Lose": "1.4",
+     "If Win": "1.1",
+     "If Lose": "1.39",
      "Reset If Win": "2",
      "Reset If Profit": "0.00000001",
      "Interval": "0"
